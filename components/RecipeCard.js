@@ -37,6 +37,7 @@ export default function RecipeCard({ recipe }) {
             position: relative;
             top: -40px;
             left: -10px;
+            border-radius: 0.5rem;
           }
           .info {
             padding: 16px;
@@ -59,6 +60,7 @@ export default function RecipeCard({ recipe }) {
             background: #f01b29;
             padding: 16px 24px;
             text-decoration: none;
+            border-radius: 0.5rem;
           }
         `}
       </style>
