@@ -56,18 +56,6 @@ footer {
   box-sizing: border-box;
 }
 
-/* Recipes */
-.recipe-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px 60px;
-}
-@media screen and (max-width: 600px) {
-  .recipe-list {
-    display: table;
-  }
-}
-
 img {
   border-radius: 0.5rem;
 }
